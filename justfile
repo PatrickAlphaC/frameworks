@@ -8,7 +8,7 @@ install:
 
 # Serve the book locally with hot reload
 serve: install
-    ./serve.sh
+    mdbook serve
 
 # Run all linting checks
 lint:

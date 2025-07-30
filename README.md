@@ -79,7 +79,7 @@ tags:
 
 8. If adding significant content, add attribution using the contributors system (see [using-contributors.md](src/config/using-contributors.md)).
 9. Make sure your changes don't break anything by testing it in the local setup:
-   `./serve.sh`
+   `just serve`
 10. Commit your changes:
     `git add .`
 11. Commit the changes with a descriptive message:
@@ -99,5 +99,3 @@ Editors merge PRs and push suggestions to the main branch which will be reflecte
 2. `git fetch origin develop`
 3. `git merge origin/develop`
 4. Manually merge files, solve conflicts and add a description.
-
-- Using the `serve.sh` script instead of mdBook `serve` command is needed to be able to see properly the local deployment.
