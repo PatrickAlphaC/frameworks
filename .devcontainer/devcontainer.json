@@ -21,6 +21,7 @@
             }
         }
     },
+    "forwardPorts": [3000],
     "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,consistency=cached",
     "workspaceFolder": "/workspace",
     "postCreateCommand": "echo 'DevContainer ready! Run \"just serve\" to start the mdBook server.'"
